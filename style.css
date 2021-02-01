@@ -52,6 +52,9 @@ ul {
 	margin-top: 10%;
 	padding: 10px;
 }
+#sidebar li {
+	list-style: none;
+}
 
 #footer {
 	text-align: center;
