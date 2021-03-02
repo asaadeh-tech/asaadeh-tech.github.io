@@ -1,72 +1,113 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-		<title>Portfolio Home</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
+
+<head>
+  <title>Portfolio Home</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<main>
+
   <body>
-		<div id="container">
-			<div id="header">
-				<h1>Portfolio Home</h1>
-			</div>
-
-			<div id="nav">
-				<ul>
-					<li><a class="active" href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-
-			<div id="main">
-				<h1>Projects</h1>
-				<h3>Nasa Project | Undisclosed</h3>
-        <p>Collaborated with producers, developers, and designers on a team of 30+.</p>
-        <h3>Alien Invaders | Classic Arcade Game</h3>
-        <p>A new twist on a nostalgic title. Classic top-down alien shooter. Collect powerups and battle endless waves.</p>
-        <h3>Floyd Steinberg Dither Program | Image Manipulation</h3>
-        <p>Turns images into works of art. The program implements the Floyd-Steinberg dither algorithm to manipulate the pixels in an image, giving the artistic dither effect.</p>
-        <h3>Fireworks Simulation</h3>
-        <p>Generates a unique firework show right on your desktop.</p>
-        <h3>Global Earthquakes Visualization | Data Science</h3>
-        <p>Visualize earthquake data on a map.</p>
-        <h3>Weather App | Android and API</h3>
-        <p>Get the weather at your location or search for any city. Calls weather API to get data for your location then displays the information in a user-friendly way.</p>
-        <h3>Augmented Reality | Fitness Mobile App</h3>
-        <p>Designed and developed an augmented reality runner application for android mobile. The app shows an AR runner model in front of the user while they are running. The app helps the user pace themselves while running and improves their performance.</p>
-        <h3>Caesar Cipher Encryption and Decryption Program</h3>
-        <p>The program allows the user to type out a message and enter a key to encrypt, which later can be decrypted by entering the encrypted text and the correct key. Two users can send encrypted messages to each other which then can be decrypted by the other user with the correct key.</p>
-        <h3>Machine Learning Powered Analysis of Titanic Passengers</h3>
-        <p>Cleaned and analyzed data gathered about the passengers of the Titanic. Created a machine learning model and validated its accuracy and precision. Used the model to gain insights and interesting findings about the passenger’s and their survival of the Titanic tragedy.</p>
-        <h3>Classic Snake Arcade Game | Graphics API</h3>
-        <p>Desktop implementation of the classic snake arcade game. This showcases the use of a third-party graphics API and implementation of game logic and OOP.</p>
-        <h3>Conway's Game of Life Implementation</h3>
-        <p>Cellular automata implementation of the orginal which was created by John Conway. A program with simple rules and wonderous outcomes.</p>
-        <h3>Prime Number Visualization</h3>
-        <p>See the prime numbers in a new and interesting way with this visualization. Prime numbers plotted with polar coordinates reveals a spiral pattern.</p>
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="home">Portfolio</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
-			<div id="sidebar">
-				<h3>Skills</h3>
-				<ul>
-          <li>Python, C++, C#, Java, HTML, CSS, Javascript</li>
-          <li>Algorithms and Data Structures, Linked List, Hash Table, Trees and Graphs, Binary Search Tree, Data Modeling/Cleaning/Visualization, Networking</li>
-          <li>Git, Perforce</li>
-          <li>Unity, Godot, Visual Studio, Android Studio</li>
-          <li>MySQL</li>
-          <li>Kanban</li>
-        </ul>
-			</div>
+    <div class="container">
+      <div id="main">
+        <h1>Projects</h1>
 
-			<div class="clr"></div>
+        <h3>Nasa Project | Undisclosed</h3>
+        <p>Collaborated with producers, developers, and designers on a team of 30+.</p><br>
 
-			<div id="footer">
-				<p>Copyright &copy; 2021</p>
-			</div>
+        <h3>Alien Invaders | Classic Arcade Game</h3>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/BGwTR3dAq_E" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+        <p>A new twist on a nostalgic title. Classic top-down alien shooter. Collect powerups and battle endless waves.
+        </p><br>
 
-		</div>
+        <h3>Craigslist Clone | Web Scraper | Django</h3>
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#one!"><img src="images/my-list/home.png"></a>
+          <a class="carousel-item" href="#two!"><img src="images/my-list/search_result1.png"></a>
+          <a class="carousel-item" href="#three!"><img src="images/my-list/search_result2.png"></a>
+          <a class="carousel-item" href="#four!"><img src="images/my-list/post_link_craigslist.png"></a>
+        </div>
+        <p>Surf craigslist in style with My List. A clean and user-friendly interface to craigslist, using cards. Links
+          take you directly to the craigslist post of interest.</p><br>
 
-	</body>
+        <h3>Floyd Steinberg Dither Program | Image Manipulation</h3>
+        <p>Turns images into works of art. The program implements the Floyd-Steinberg dither algorithm to manipulate the
+          pixels in an image, giving the artistic dither effect.</p><br>
+
+        <h3>Fireworks Simulation</h3>
+        <p>Generates a unique firework show right on your desktop.</p><br>
+
+        <h3>Global Earthquakes Visualization | Data Science</h3>
+        <p>Visualize earthquake data on a map.</p><br>
+
+        <h3>Weather App | Android and API</h3>
+        <p>Get the weather at your location or search for any city. Calls weather API to get data for your location then
+          displays the information in a user-friendly way.</p><br>
+
+        <h3>Augmented Reality | Fitness Mobile App</h3>
+        <p>Designed and developed an augmented reality runner application for android mobile. The app shows an AR runner
+          model in front of the user while they are running. The app helps the user pace themselves while running and
+          improves their performance.</p><br>
+
+        <h3>Caesar Cipher Encryption and Decryption Program</h3>
+        <p>The program allows the user to type out a message and enter a key to encrypt, which later can be decrypted by
+          entering the encrypted text and the correct key. Two users can send encrypted messages to each other which
+          then can be decrypted by the other user with the correct key.</p><br>
+
+        <h3>Machine Learning Powered Analysis of Titanic Passengers</h3>
+        <p>Cleaned and analyzed data gathered about the passengers of the Titanic. Created a machine learning model and
+          validated its accuracy and precision. Used the model to gain insights and interesting findings about the
+          passenger’s and their survival of the Titanic tragedy.</p><br>
+
+        <h3>Classic Snake Arcade Game | Graphics API</h3>
+        <p>Desktop implementation of the classic snake arcade game. This showcases the use of a third-party graphics API
+          and implementation of game logic and OOP.</p><br>
+
+        <h3>Conway's Game of Life Implementation</h3>
+        <p>Cellular automata implementation of the orginal which was created by John Conway. A program with simple rules
+          and wonderous outcomes.</p><br>
+
+        <h3>Prime Number Visualization</h3>
+        <img class="responsive-img" src="images/prime_spiral.gif">
+        <p>See the prime numbers in a new and interesting way with this visualization. Prime numbers plotted with polar
+          coordinates reveals a spiral pattern.</p><br>
+
+      </div>
+    </div>
+
+  </body>
+</main>
+
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+      Copyright &copy; 2021
+    </div>
+  </div>
+</footer>
+
 
 </html>
